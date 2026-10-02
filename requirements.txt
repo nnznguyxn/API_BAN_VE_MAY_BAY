@@ -1,0 +1,6 @@
+fastapi[standard]
+pydantic[email]
+SQLAlchemy
+alembic
+bcrypt
+PyJWT
