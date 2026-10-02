@@ -6,7 +6,7 @@ class CauHinh(BaseSettings):
 
     ten_ung_dung: str = "API Thu Vien Quan Ly Ve May Bay"
     chuoi_ket_noi: str = "sqlite:///./thu_vien_quan_ly_ve_may_bay.db"
-    khoa_bi_mat: str = "dev-secret"
+    khoa_bi_mat: str = "dev-secret-key-please-change-in-production-123456"
     so_phut_het_han: int = 30
     nguon_cho_phep: str = "*"
     tien_phat_moi_ngay: int = 5000

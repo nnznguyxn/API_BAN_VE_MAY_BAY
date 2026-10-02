@@ -11,7 +11,7 @@ from app.config import cau_hinh
 from app.deps import lay_db
 from app.models import User
 
-KHOA_BI_MAT = "dev-secret"
+KHOA_BI_MAT = cau_hinh.khoa_bi_mat
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
